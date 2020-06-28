@@ -1,0 +1,16 @@
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+
+# Built libraries
+*.so
+*.dylib
+
+# Added by cargo
+/target
+Cargo.lock

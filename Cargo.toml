@@ -1,0 +1,13 @@
+[package]
+name = "pulldown-cmark-rb"
+version = "0.1.0"
+authors = ["Ben Gollmer <ben@telesector.net>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type=["cdylib"]
+
+[dependencies]
+pulldown-cmark = { version = "0.7", default-features = false, features = ["simd"] }
